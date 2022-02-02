@@ -1,0 +1,11 @@
+name: Hello Action
+
+on: [push]
+
+jobs:
+  print-hello-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Print Hello Action'
+        run: echo "Hello Action"
+        
